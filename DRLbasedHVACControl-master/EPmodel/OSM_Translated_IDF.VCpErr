@@ -1,0 +1,503 @@
+Program Version,Conversion 22.2 => 23.1
+   ** Severe  ** IP: IDF line~13 Multiple occurrences of Unique Object=Version
+   ************* IDF Context for following error/warning message:
+   ************* Note -- lines truncated at 300 characters, if necessary...
+   *************     78 ZoneAirHeatBalanceAlgorithm,
+   ************* Only last 2 lines before error line shown.....
+   *************     79     ThirdOrderBackwardDifference,  !- Algorithm
+   *************     80     No,                      !- Do Space Heat Balance for Sizing
+   ** Severe  ** IP: IDF line~80 Error detected for Object=ZoneAirHeatBalanceAlgorithm
+   **   ~~~   **  Maximum arguments reached for this object, trying to process ->No<-
+   ************* IDF Context for following error/warning message:
+   ************* Note -- lines truncated at 300 characters, if necessary...
+   *************   9282 Coil:Cooling:DX:TwoSpeed,
+   ************* Only last 10 lines before error line shown.....
+   *************   9288     Autosize,                !- High Speed Rated Air Flow Rate {m3/s}
+   *************   9289     773.3,                   !- Unit Internal Static Air Pressure {Pa}
+   *************   9290     934.4,                   !- Air Inlet Node Name
+   *************   9291     773.3,                   !- Air Outlet Node Name
+   *************   9292     Node 11,                 !- Total Cooling Capacity Function of Temperature Curve Name
+   *************   9293     Node 12,                 !- Total Cooling Capacity Function of Flow Fraction Curve Name
+   *************   9294     OS:Curve:Biquadratic 25, !- Energy Input Ratio Function of Temperature Curve Name
+   *************   9295     OS:Curve:Quadratic 20,   !- Energy Input Ratio Function of Flow Fraction Curve Name
+   *************   9296     OS:Curve:Biquadratic 22, !- Part Load Fraction Correlation Curve Name
+   *************   9297     OS:Curve:Quadratic 21,   !- Low Speed Gross Rated Total Cooling Capacity {W}
+   ** Warning ** Invalid Number in Numeric Field#6 (Low Speed Gross Rated Total Cooling Capacity), value=OS:Curve:Quadratic 21, in Coil:Cooling:DX:TwoSpeed=2 Spd DX Clg Coil
+   ************* IDF Context for following error/warning message:
+   ************* Note -- lines truncated at 300 characters, if necessary...
+   *************   9282 Coil:Cooling:DX:TwoSpeed,
+   ************* Only last 10 lines before error line shown.....
+   *************   9289     773.3,                   !- Unit Internal Static Air Pressure {Pa}
+   *************   9290     934.4,                   !- Air Inlet Node Name
+   *************   9291     773.3,                   !- Air Outlet Node Name
+   *************   9292     Node 11,                 !- Total Cooling Capacity Function of Temperature Curve Name
+   *************   9293     Node 12,                 !- Total Cooling Capacity Function of Flow Fraction Curve Name
+   *************   9294     OS:Curve:Biquadratic 25, !- Energy Input Ratio Function of Temperature Curve Name
+   *************   9295     OS:Curve:Quadratic 20,   !- Energy Input Ratio Function of Flow Fraction Curve Name
+   *************   9296     OS:Curve:Biquadratic 22, !- Part Load Fraction Correlation Curve Name
+   *************   9297     OS:Curve:Quadratic 21,   !- Low Speed Gross Rated Total Cooling Capacity {W}
+   *************   9298     OS:Curve:Quadratic 22,   !- Low Speed Gross Rated Sensible Heat Ratio
+   ** Warning ** Invalid Number in Numeric Field#7 (Low Speed Gross Rated Sensible Heat Ratio), value=OS:Curve:Quadratic 22, in Coil:Cooling:DX:TwoSpeed=2 Spd DX Clg Coil
+   ************* IDF Context for following error/warning message:
+   ************* Note -- lines truncated at 300 characters, if necessary...
+   *************   9282 Coil:Cooling:DX:TwoSpeed,
+   ************* Only last 10 lines before error line shown.....
+   *************   9296     OS:Curve:Biquadratic 22, !- Part Load Fraction Correlation Curve Name
+   *************   9297     OS:Curve:Quadratic 21,   !- Low Speed Gross Rated Total Cooling Capacity {W}
+   *************   9298     OS:Curve:Quadratic 22,   !- Low Speed Gross Rated Sensible Heat Ratio
+   *************   9299     Autosize,                !- Low Speed Gross Rated Cooling COP {W/W}
+   *************   9300     0.69,                    !- Low Speed Rated Air Flow Rate {m3/s}
+   *************   9301     3,                       !- Low Speed Total Cooling Capacity Function of Temperature Curve Name
+   *************   9302     Autosize,                !- Low Speed Energy Input Ratio Function of Temperature Curve Name
+   *************   9303     773.3,                   !- Condenser Air Inlet Node Name
+   *************   9304     934.4,                   !- Condenser Type
+   *************   9305     OS:Curve:Biquadratic 23, !- Minimum Outdoor Dry-Bulb Temperature for Compressor Operation {C}
+   ** Warning ** Invalid Number in Numeric Field#10 (Minimum Outdoor Dry-Bulb Temperature for Compressor Operation), value=OS:Curve:Biquadratic 23, in Coil:Cooling:DX:TwoSpeed=2 Spd DX Clg Coil
+   ************* IDF Context for following error/warning message:
+   ************* Note -- lines truncated at 300 characters, if necessary...
+   *************   9282 Coil:Cooling:DX:TwoSpeed,
+   ************* Only last 10 lines before error line shown.....
+   *************   9297     OS:Curve:Quadratic 21,   !- Low Speed Gross Rated Total Cooling Capacity {W}
+   *************   9298     OS:Curve:Quadratic 22,   !- Low Speed Gross Rated Sensible Heat Ratio
+   *************   9299     Autosize,                !- Low Speed Gross Rated Cooling COP {W/W}
+   *************   9300     0.69,                    !- Low Speed Rated Air Flow Rate {m3/s}
+   *************   9301     3,                       !- Low Speed Total Cooling Capacity Function of Temperature Curve Name
+   *************   9302     Autosize,                !- Low Speed Energy Input Ratio Function of Temperature Curve Name
+   *************   9303     773.3,                   !- Condenser Air Inlet Node Name
+   *************   9304     934.4,                   !- Condenser Type
+   *************   9305     OS:Curve:Biquadratic 23, !- Minimum Outdoor Dry-Bulb Temperature for Compressor Operation {C}
+   *************   9306     OS:Curve:Biquadratic 24, !- High Speed Evaporative Condenser Effectiveness {dimensionless}
+   ** Warning ** Invalid Number in Numeric Field#11 (High Speed Evaporative Condenser Effectiveness), value=OS:Curve:Biquadratic 24, in Coil:Cooling:DX:TwoSpeed=2 Spd DX Clg Coil
+   ************* IDF Context for following error/warning message:
+   ************* Note -- lines truncated at 300 characters, if necessary...
+   *************   9282 Coil:Cooling:DX:TwoSpeed,
+   ************* Only last 10 lines before error line shown.....
+   *************   9299     Autosize,                !- Low Speed Gross Rated Cooling COP {W/W}
+   *************   9300     0.69,                    !- Low Speed Rated Air Flow Rate {m3/s}
+   *************   9301     3,                       !- Low Speed Total Cooling Capacity Function of Temperature Curve Name
+   *************   9302     Autosize,                !- Low Speed Energy Input Ratio Function of Temperature Curve Name
+   *************   9303     773.3,                   !- Condenser Air Inlet Node Name
+   *************   9304     934.4,                   !- Condenser Type
+   *************   9305     OS:Curve:Biquadratic 23, !- Minimum Outdoor Dry-Bulb Temperature for Compressor Operation {C}
+   *************   9306     OS:Curve:Biquadratic 24, !- High Speed Evaporative Condenser Effectiveness {dimensionless}
+   *************   9307     ,                        !- High Speed Evaporative Condenser Air Flow Rate {m3/s}
+   *************   9308     AirCooled,               !- High Speed Evaporative Condenser Pump Rated Power Consumption {W}
+   ** Warning ** Invalid Number in Numeric Field#13 (High Speed Evaporative Condenser Pump Rated Power Consumption), value=AirCooled, in Coil:Cooling:DX:TwoSpeed=2 Spd DX Clg Coil
+   ** Severe  ** Out of range value Numeric Field#6 (Low Speed Gross Rated Total Cooling Capacity), value=0.00000, range={>0.0}, in Coil:Cooling:DX:TwoSpeed=2 Spd DX Clg Coil
+   ** Severe  ** Out of range value Numeric Field#7 (Low Speed Gross Rated Sensible Heat Ratio), value=0.00000, range={>=0.5 and <=1.0}, in Coil:Cooling:DX:TwoSpeed=2 Spd DX Clg Coil
+   ** Severe  ** Out of range value Numeric Field#8 (Low Speed Gross Rated Cooling COP), value=0.00000, range={>0.0}, in Coil:Cooling:DX:TwoSpeed=2 Spd DX Clg Coil
+   ** Severe  ** Out of range value Numeric Field#14 (Low Speed Evaporative Condenser Effectiveness), value=-25.00000, range={>=0.0 and <=1.0}, in Coil:Cooling:DX:TwoSpeed=2 Spd DX Clg Coil
+   ** Severe  ** Out of range value Numeric Field#15 (Low Speed Evaporative Condenser Air Flow Rate), value=0.00000, range={>0.0}, in Coil:Cooling:DX:TwoSpeed=2 Spd DX Clg Coil
+   ** Severe  ** Out of range value Numeric Field#18 (Basin Heater Setpoint Temperature), value=0.00000, range={>=2.0}, in Coil:Cooling:DX:TwoSpeed=2 Spd DX Clg Coil
+   ************* IDF Context for following error/warning message:
+   ************* Note -- lines truncated at 300 characters, if necessary...
+   *************   9321 Coil:Cooling:DX:TwoSpeed,
+   ************* Only last 10 lines before error line shown.....
+   *************   9327     Autosize,                !- High Speed Rated Air Flow Rate {m3/s}
+   *************   9328     773.3,                   !- Unit Internal Static Air Pressure {Pa}
+   *************   9329     934.4,                   !- Air Inlet Node Name
+   *************   9330     773.3,                   !- Air Outlet Node Name
+   *************   9331     Node 24,                 !- Total Cooling Capacity Function of Temperature Curve Name
+   *************   9332     Node 25,                 !- Total Cooling Capacity Function of Flow Fraction Curve Name
+   *************   9333     OS:Curve:Biquadratic 25, !- Energy Input Ratio Function of Temperature Curve Name
+   *************   9334     OS:Curve:Quadratic 20,   !- Energy Input Ratio Function of Flow Fraction Curve Name
+   *************   9335     OS:Curve:Biquadratic 22, !- Part Load Fraction Correlation Curve Name
+   *************   9336     OS:Curve:Quadratic 21,   !- Low Speed Gross Rated Total Cooling Capacity {W}
+   ** Warning ** Invalid Number in Numeric Field#6 (Low Speed Gross Rated Total Cooling Capacity), value=OS:Curve:Quadratic 21, in Coil:Cooling:DX:TwoSpeed=2 Spd DX Clg Coil 1
+   ************* IDF Context for following error/warning message:
+   ************* Note -- lines truncated at 300 characters, if necessary...
+   *************   9321 Coil:Cooling:DX:TwoSpeed,
+   ************* Only last 10 lines before error line shown.....
+   *************   9328     773.3,                   !- Unit Internal Static Air Pressure {Pa}
+   *************   9329     934.4,                   !- Air Inlet Node Name
+   *************   9330     773.3,                   !- Air Outlet Node Name
+   *************   9331     Node 24,                 !- Total Cooling Capacity Function of Temperature Curve Name
+   *************   9332     Node 25,                 !- Total Cooling Capacity Function of Flow Fraction Curve Name
+   *************   9333     OS:Curve:Biquadratic 25, !- Energy Input Ratio Function of Temperature Curve Name
+   *************   9334     OS:Curve:Quadratic 20,   !- Energy Input Ratio Function of Flow Fraction Curve Name
+   *************   9335     OS:Curve:Biquadratic 22, !- Part Load Fraction Correlation Curve Name
+   *************   9336     OS:Curve:Quadratic 21,   !- Low Speed Gross Rated Total Cooling Capacity {W}
+   *************   9337     OS:Curve:Quadratic 22,   !- Low Speed Gross Rated Sensible Heat Ratio
+   ** Warning ** Invalid Number in Numeric Field#7 (Low Speed Gross Rated Sensible Heat Ratio), value=OS:Curve:Quadratic 22, in Coil:Cooling:DX:TwoSpeed=2 Spd DX Clg Coil 1
+   ************* IDF Context for following error/warning message:
+   ************* Note -- lines truncated at 300 characters, if necessary...
+   *************   9321 Coil:Cooling:DX:TwoSpeed,
+   ************* Only last 10 lines before error line shown.....
+   *************   9335     OS:Curve:Biquadratic 22, !- Part Load Fraction Correlation Curve Name
+   *************   9336     OS:Curve:Quadratic 21,   !- Low Speed Gross Rated Total Cooling Capacity {W}
+   *************   9337     OS:Curve:Quadratic 22,   !- Low Speed Gross Rated Sensible Heat Ratio
+   *************   9338     Autosize,                !- Low Speed Gross Rated Cooling COP {W/W}
+   *************   9339     0.69,                    !- Low Speed Rated Air Flow Rate {m3/s}
+   *************   9340     3,                       !- Low Speed Total Cooling Capacity Function of Temperature Curve Name
+   *************   9341     Autosize,                !- Low Speed Energy Input Ratio Function of Temperature Curve Name
+   *************   9342     773.3,                   !- Condenser Air Inlet Node Name
+   *************   9343     934.4,                   !- Condenser Type
+   *************   9344     OS:Curve:Biquadratic 23, !- Minimum Outdoor Dry-Bulb Temperature for Compressor Operation {C}
+   ** Warning ** Invalid Number in Numeric Field#10 (Minimum Outdoor Dry-Bulb Temperature for Compressor Operation), value=OS:Curve:Biquadratic 23, in Coil:Cooling:DX:TwoSpeed=2 Spd DX Clg Coil 1
+   ************* IDF Context for following error/warning message:
+   ************* Note -- lines truncated at 300 characters, if necessary...
+   *************   9321 Coil:Cooling:DX:TwoSpeed,
+   ************* Only last 10 lines before error line shown.....
+   *************   9336     OS:Curve:Quadratic 21,   !- Low Speed Gross Rated Total Cooling Capacity {W}
+   *************   9337     OS:Curve:Quadratic 22,   !- Low Speed Gross Rated Sensible Heat Ratio
+   *************   9338     Autosize,                !- Low Speed Gross Rated Cooling COP {W/W}
+   *************   9339     0.69,                    !- Low Speed Rated Air Flow Rate {m3/s}
+   *************   9340     3,                       !- Low Speed Total Cooling Capacity Function of Temperature Curve Name
+   *************   9341     Autosize,                !- Low Speed Energy Input Ratio Function of Temperature Curve Name
+   *************   9342     773.3,                   !- Condenser Air Inlet Node Name
+   *************   9343     934.4,                   !- Condenser Type
+   *************   9344     OS:Curve:Biquadratic 23, !- Minimum Outdoor Dry-Bulb Temperature for Compressor Operation {C}
+   *************   9345     OS:Curve:Biquadratic 24, !- High Speed Evaporative Condenser Effectiveness {dimensionless}
+   ** Warning ** Invalid Number in Numeric Field#11 (High Speed Evaporative Condenser Effectiveness), value=OS:Curve:Biquadratic 24, in Coil:Cooling:DX:TwoSpeed=2 Spd DX Clg Coil 1
+   ************* IDF Context for following error/warning message:
+   ************* Note -- lines truncated at 300 characters, if necessary...
+   *************   9321 Coil:Cooling:DX:TwoSpeed,
+   ************* Only last 10 lines before error line shown.....
+   *************   9338     Autosize,                !- Low Speed Gross Rated Cooling COP {W/W}
+   *************   9339     0.69,                    !- Low Speed Rated Air Flow Rate {m3/s}
+   *************   9340     3,                       !- Low Speed Total Cooling Capacity Function of Temperature Curve Name
+   *************   9341     Autosize,                !- Low Speed Energy Input Ratio Function of Temperature Curve Name
+   *************   9342     773.3,                   !- Condenser Air Inlet Node Name
+   *************   9343     934.4,                   !- Condenser Type
+   *************   9344     OS:Curve:Biquadratic 23, !- Minimum Outdoor Dry-Bulb Temperature for Compressor Operation {C}
+   *************   9345     OS:Curve:Biquadratic 24, !- High Speed Evaporative Condenser Effectiveness {dimensionless}
+   *************   9346     ,                        !- High Speed Evaporative Condenser Air Flow Rate {m3/s}
+   *************   9347     AirCooled,               !- High Speed Evaporative Condenser Pump Rated Power Consumption {W}
+   ** Warning ** Invalid Number in Numeric Field#13 (High Speed Evaporative Condenser Pump Rated Power Consumption), value=AirCooled, in Coil:Cooling:DX:TwoSpeed=2 Spd DX Clg Coil 1
+   ** Severe  ** Out of range value Numeric Field#6 (Low Speed Gross Rated Total Cooling Capacity), value=0.00000, range={>0.0}, in Coil:Cooling:DX:TwoSpeed=2 Spd DX Clg Coil 1
+   ** Severe  ** Out of range value Numeric Field#7 (Low Speed Gross Rated Sensible Heat Ratio), value=0.00000, range={>=0.5 and <=1.0}, in Coil:Cooling:DX:TwoSpeed=2 Spd DX Clg Coil 1
+   ** Severe  ** Out of range value Numeric Field#8 (Low Speed Gross Rated Cooling COP), value=0.00000, range={>0.0}, in Coil:Cooling:DX:TwoSpeed=2 Spd DX Clg Coil 1
+   ** Severe  ** Out of range value Numeric Field#14 (Low Speed Evaporative Condenser Effectiveness), value=-25.00000, range={>=0.0 and <=1.0}, in Coil:Cooling:DX:TwoSpeed=2 Spd DX Clg Coil 1
+   ** Severe  ** Out of range value Numeric Field#15 (Low Speed Evaporative Condenser Air Flow Rate), value=0.00000, range={>0.0}, in Coil:Cooling:DX:TwoSpeed=2 Spd DX Clg Coil 1
+   ** Severe  ** Out of range value Numeric Field#18 (Basin Heater Setpoint Temperature), value=0.00000, range={>=2.0}, in Coil:Cooling:DX:TwoSpeed=2 Spd DX Clg Coil 1
+   ************* IDF Context for following error/warning message:
+   ************* Note -- lines truncated at 300 characters, if necessary...
+   *************   9360 Coil:Cooling:DX:TwoSpeed,
+   ************* Only last 10 lines before error line shown.....
+   *************   9366     Autosize,                !- High Speed Rated Air Flow Rate {m3/s}
+   *************   9367     773.3,                   !- Unit Internal Static Air Pressure {Pa}
+   *************   9368     934.4,                   !- Air Inlet Node Name
+   *************   9369     773.3,                   !- Air Outlet Node Name
+   *************   9370     Node 35,                 !- Total Cooling Capacity Function of Temperature Curve Name
+   *************   9371     Node 36,                 !- Total Cooling Capacity Function of Flow Fraction Curve Name
+   *************   9372     OS:Curve:Biquadratic 25, !- Energy Input Ratio Function of Temperature Curve Name
+   *************   9373     OS:Curve:Quadratic 20,   !- Energy Input Ratio Function of Flow Fraction Curve Name
+   *************   9374     OS:Curve:Biquadratic 22, !- Part Load Fraction Correlation Curve Name
+   *************   9375     OS:Curve:Quadratic 21,   !- Low Speed Gross Rated Total Cooling Capacity {W}
+   ** Warning ** Invalid Number in Numeric Field#6 (Low Speed Gross Rated Total Cooling Capacity), value=OS:Curve:Quadratic 21, in Coil:Cooling:DX:TwoSpeed=2 Spd DX Clg Coil 2
+   ************* IDF Context for following error/warning message:
+   ************* Note -- lines truncated at 300 characters, if necessary...
+   *************   9360 Coil:Cooling:DX:TwoSpeed,
+   ************* Only last 10 lines before error line shown.....
+   *************   9367     773.3,                   !- Unit Internal Static Air Pressure {Pa}
+   *************   9368     934.4,                   !- Air Inlet Node Name
+   *************   9369     773.3,                   !- Air Outlet Node Name
+   *************   9370     Node 35,                 !- Total Cooling Capacity Function of Temperature Curve Name
+   *************   9371     Node 36,                 !- Total Cooling Capacity Function of Flow Fraction Curve Name
+   *************   9372     OS:Curve:Biquadratic 25, !- Energy Input Ratio Function of Temperature Curve Name
+   *************   9373     OS:Curve:Quadratic 20,   !- Energy Input Ratio Function of Flow Fraction Curve Name
+   *************   9374     OS:Curve:Biquadratic 22, !- Part Load Fraction Correlation Curve Name
+   *************   9375     OS:Curve:Quadratic 21,   !- Low Speed Gross Rated Total Cooling Capacity {W}
+   *************   9376     OS:Curve:Quadratic 22,   !- Low Speed Gross Rated Sensible Heat Ratio
+   ** Warning ** Invalid Number in Numeric Field#7 (Low Speed Gross Rated Sensible Heat Ratio), value=OS:Curve:Quadratic 22, in Coil:Cooling:DX:TwoSpeed=2 Spd DX Clg Coil 2
+   ************* IDF Context for following error/warning message:
+   ************* Note -- lines truncated at 300 characters, if necessary...
+   *************   9360 Coil:Cooling:DX:TwoSpeed,
+   ************* Only last 10 lines before error line shown.....
+   *************   9374     OS:Curve:Biquadratic 22, !- Part Load Fraction Correlation Curve Name
+   *************   9375     OS:Curve:Quadratic 21,   !- Low Speed Gross Rated Total Cooling Capacity {W}
+   *************   9376     OS:Curve:Quadratic 22,   !- Low Speed Gross Rated Sensible Heat Ratio
+   *************   9377     Autosize,                !- Low Speed Gross Rated Cooling COP {W/W}
+   *************   9378     0.69,                    !- Low Speed Rated Air Flow Rate {m3/s}
+   *************   9379     3,                       !- Low Speed Total Cooling Capacity Function of Temperature Curve Name
+   *************   9380     Autosize,                !- Low Speed Energy Input Ratio Function of Temperature Curve Name
+   *************   9381     773.3,                   !- Condenser Air Inlet Node Name
+   *************   9382     934.4,                   !- Condenser Type
+   *************   9383     OS:Curve:Biquadratic 23, !- Minimum Outdoor Dry-Bulb Temperature for Compressor Operation {C}
+   ** Warning ** Invalid Number in Numeric Field#10 (Minimum Outdoor Dry-Bulb Temperature for Compressor Operation), value=OS:Curve:Biquadratic 23, in Coil:Cooling:DX:TwoSpeed=2 Spd DX Clg Coil 2
+   ************* IDF Context for following error/warning message:
+   ************* Note -- lines truncated at 300 characters, if necessary...
+   *************   9360 Coil:Cooling:DX:TwoSpeed,
+   ************* Only last 10 lines before error line shown.....
+   *************   9375     OS:Curve:Quadratic 21,   !- Low Speed Gross Rated Total Cooling Capacity {W}
+   *************   9376     OS:Curve:Quadratic 22,   !- Low Speed Gross Rated Sensible Heat Ratio
+   *************   9377     Autosize,                !- Low Speed Gross Rated Cooling COP {W/W}
+   *************   9378     0.69,                    !- Low Speed Rated Air Flow Rate {m3/s}
+   *************   9379     3,                       !- Low Speed Total Cooling Capacity Function of Temperature Curve Name
+   *************   9380     Autosize,                !- Low Speed Energy Input Ratio Function of Temperature Curve Name
+   *************   9381     773.3,                   !- Condenser Air Inlet Node Name
+   *************   9382     934.4,                   !- Condenser Type
+   *************   9383     OS:Curve:Biquadratic 23, !- Minimum Outdoor Dry-Bulb Temperature for Compressor Operation {C}
+   *************   9384     OS:Curve:Biquadratic 24, !- High Speed Evaporative Condenser Effectiveness {dimensionless}
+   ** Warning ** Invalid Number in Numeric Field#11 (High Speed Evaporative Condenser Effectiveness), value=OS:Curve:Biquadratic 24, in Coil:Cooling:DX:TwoSpeed=2 Spd DX Clg Coil 2
+   ************* IDF Context for following error/warning message:
+   ************* Note -- lines truncated at 300 characters, if necessary...
+   *************   9360 Coil:Cooling:DX:TwoSpeed,
+   ************* Only last 10 lines before error line shown.....
+   *************   9377     Autosize,                !- Low Speed Gross Rated Cooling COP {W/W}
+   *************   9378     0.69,                    !- Low Speed Rated Air Flow Rate {m3/s}
+   *************   9379     3,                       !- Low Speed Total Cooling Capacity Function of Temperature Curve Name
+   *************   9380     Autosize,                !- Low Speed Energy Input Ratio Function of Temperature Curve Name
+   *************   9381     773.3,                   !- Condenser Air Inlet Node Name
+   *************   9382     934.4,                   !- Condenser Type
+   *************   9383     OS:Curve:Biquadratic 23, !- Minimum Outdoor Dry-Bulb Temperature for Compressor Operation {C}
+   *************   9384     OS:Curve:Biquadratic 24, !- High Speed Evaporative Condenser Effectiveness {dimensionless}
+   *************   9385     ,                        !- High Speed Evaporative Condenser Air Flow Rate {m3/s}
+   *************   9386     AirCooled,               !- High Speed Evaporative Condenser Pump Rated Power Consumption {W}
+   ** Warning ** Invalid Number in Numeric Field#13 (High Speed Evaporative Condenser Pump Rated Power Consumption), value=AirCooled, in Coil:Cooling:DX:TwoSpeed=2 Spd DX Clg Coil 2
+   ** Severe  ** Out of range value Numeric Field#6 (Low Speed Gross Rated Total Cooling Capacity), value=0.00000, range={>0.0}, in Coil:Cooling:DX:TwoSpeed=2 Spd DX Clg Coil 2
+   ** Severe  ** Out of range value Numeric Field#7 (Low Speed Gross Rated Sensible Heat Ratio), value=0.00000, range={>=0.5 and <=1.0}, in Coil:Cooling:DX:TwoSpeed=2 Spd DX Clg Coil 2
+   ** Severe  ** Out of range value Numeric Field#8 (Low Speed Gross Rated Cooling COP), value=0.00000, range={>0.0}, in Coil:Cooling:DX:TwoSpeed=2 Spd DX Clg Coil 2
+   ** Severe  ** Out of range value Numeric Field#14 (Low Speed Evaporative Condenser Effectiveness), value=-25.00000, range={>=0.0 and <=1.0}, in Coil:Cooling:DX:TwoSpeed=2 Spd DX Clg Coil 2
+   ** Severe  ** Out of range value Numeric Field#15 (Low Speed Evaporative Condenser Air Flow Rate), value=0.00000, range={>0.0}, in Coil:Cooling:DX:TwoSpeed=2 Spd DX Clg Coil 2
+   ** Severe  ** Out of range value Numeric Field#18 (Basin Heater Setpoint Temperature), value=0.00000, range={>=2.0}, in Coil:Cooling:DX:TwoSpeed=2 Spd DX Clg Coil 2
+   ************* IDF Context for following error/warning message:
+   ************* Note -- lines truncated at 300 characters, if necessary...
+   *************   9399 Coil:Cooling:DX:TwoSpeed,
+   ************* Only last 10 lines before error line shown.....
+   *************   9405     Autosize,                !- High Speed Rated Air Flow Rate {m3/s}
+   *************   9406     773.3,                   !- Unit Internal Static Air Pressure {Pa}
+   *************   9407     934.4,                   !- Air Inlet Node Name
+   *************   9408     773.3,                   !- Air Outlet Node Name
+   *************   9409     Node 52,                 !- Total Cooling Capacity Function of Temperature Curve Name
+   *************   9410     Node 53,                 !- Total Cooling Capacity Function of Flow Fraction Curve Name
+   *************   9411     OS:Curve:Biquadratic 25, !- Energy Input Ratio Function of Temperature Curve Name
+   *************   9412     OS:Curve:Quadratic 20,   !- Energy Input Ratio Function of Flow Fraction Curve Name
+   *************   9413     OS:Curve:Biquadratic 22, !- Part Load Fraction Correlation Curve Name
+   *************   9414     OS:Curve:Quadratic 21,   !- Low Speed Gross Rated Total Cooling Capacity {W}
+   ** Warning ** Invalid Number in Numeric Field#6 (Low Speed Gross Rated Total Cooling Capacity), value=OS:Curve:Quadratic 21, in Coil:Cooling:DX:TwoSpeed=2 Spd DX Clg Coil 3
+   ************* IDF Context for following error/warning message:
+   ************* Note -- lines truncated at 300 characters, if necessary...
+   *************   9399 Coil:Cooling:DX:TwoSpeed,
+   ************* Only last 10 lines before error line shown.....
+   *************   9406     773.3,                   !- Unit Internal Static Air Pressure {Pa}
+   *************   9407     934.4,                   !- Air Inlet Node Name
+   *************   9408     773.3,                   !- Air Outlet Node Name
+   *************   9409     Node 52,                 !- Total Cooling Capacity Function of Temperature Curve Name
+   *************   9410     Node 53,                 !- Total Cooling Capacity Function of Flow Fraction Curve Name
+   *************   9411     OS:Curve:Biquadratic 25, !- Energy Input Ratio Function of Temperature Curve Name
+   *************   9412     OS:Curve:Quadratic 20,   !- Energy Input Ratio Function of Flow Fraction Curve Name
+   *************   9413     OS:Curve:Biquadratic 22, !- Part Load Fraction Correlation Curve Name
+   *************   9414     OS:Curve:Quadratic 21,   !- Low Speed Gross Rated Total Cooling Capacity {W}
+   *************   9415     OS:Curve:Quadratic 22,   !- Low Speed Gross Rated Sensible Heat Ratio
+   ** Warning ** Invalid Number in Numeric Field#7 (Low Speed Gross Rated Sensible Heat Ratio), value=OS:Curve:Quadratic 22, in Coil:Cooling:DX:TwoSpeed=2 Spd DX Clg Coil 3
+   ************* IDF Context for following error/warning message:
+   ************* Note -- lines truncated at 300 characters, if necessary...
+   *************   9399 Coil:Cooling:DX:TwoSpeed,
+   ************* Only last 10 lines before error line shown.....
+   *************   9413     OS:Curve:Biquadratic 22, !- Part Load Fraction Correlation Curve Name
+   *************   9414     OS:Curve:Quadratic 21,   !- Low Speed Gross Rated Total Cooling Capacity {W}
+   *************   9415     OS:Curve:Quadratic 22,   !- Low Speed Gross Rated Sensible Heat Ratio
+   *************   9416     Autosize,                !- Low Speed Gross Rated Cooling COP {W/W}
+   *************   9417     0.69,                    !- Low Speed Rated Air Flow Rate {m3/s}
+   *************   9418     3,                       !- Low Speed Total Cooling Capacity Function of Temperature Curve Name
+   *************   9419     Autosize,                !- Low Speed Energy Input Ratio Function of Temperature Curve Name
+   *************   9420     773.3,                   !- Condenser Air Inlet Node Name
+   *************   9421     934.4,                   !- Condenser Type
+   *************   9422     OS:Curve:Biquadratic 23, !- Minimum Outdoor Dry-Bulb Temperature for Compressor Operation {C}
+   ** Warning ** Invalid Number in Numeric Field#10 (Minimum Outdoor Dry-Bulb Temperature for Compressor Operation), value=OS:Curve:Biquadratic 23, in Coil:Cooling:DX:TwoSpeed=2 Spd DX Clg Coil 3
+   ************* IDF Context for following error/warning message:
+   ************* Note -- lines truncated at 300 characters, if necessary...
+   *************   9399 Coil:Cooling:DX:TwoSpeed,
+   ************* Only last 10 lines before error line shown.....
+   *************   9414     OS:Curve:Quadratic 21,   !- Low Speed Gross Rated Total Cooling Capacity {W}
+   *************   9415     OS:Curve:Quadratic 22,   !- Low Speed Gross Rated Sensible Heat Ratio
+   *************   9416     Autosize,                !- Low Speed Gross Rated Cooling COP {W/W}
+   *************   9417     0.69,                    !- Low Speed Rated Air Flow Rate {m3/s}
+   *************   9418     3,                       !- Low Speed Total Cooling Capacity Function of Temperature Curve Name
+   *************   9419     Autosize,                !- Low Speed Energy Input Ratio Function of Temperature Curve Name
+   *************   9420     773.3,                   !- Condenser Air Inlet Node Name
+   *************   9421     934.4,                   !- Condenser Type
+   *************   9422     OS:Curve:Biquadratic 23, !- Minimum Outdoor Dry-Bulb Temperature for Compressor Operation {C}
+   *************   9423     OS:Curve:Biquadratic 24, !- High Speed Evaporative Condenser Effectiveness {dimensionless}
+   ** Warning ** Invalid Number in Numeric Field#11 (High Speed Evaporative Condenser Effectiveness), value=OS:Curve:Biquadratic 24, in Coil:Cooling:DX:TwoSpeed=2 Spd DX Clg Coil 3
+   ************* IDF Context for following error/warning message:
+   ************* Note -- lines truncated at 300 characters, if necessary...
+   *************   9399 Coil:Cooling:DX:TwoSpeed,
+   ************* Only last 10 lines before error line shown.....
+   *************   9416     Autosize,                !- Low Speed Gross Rated Cooling COP {W/W}
+   *************   9417     0.69,                    !- Low Speed Rated Air Flow Rate {m3/s}
+   *************   9418     3,                       !- Low Speed Total Cooling Capacity Function of Temperature Curve Name
+   *************   9419     Autosize,                !- Low Speed Energy Input Ratio Function of Temperature Curve Name
+   *************   9420     773.3,                   !- Condenser Air Inlet Node Name
+   *************   9421     934.4,                   !- Condenser Type
+   *************   9422     OS:Curve:Biquadratic 23, !- Minimum Outdoor Dry-Bulb Temperature for Compressor Operation {C}
+   *************   9423     OS:Curve:Biquadratic 24, !- High Speed Evaporative Condenser Effectiveness {dimensionless}
+   *************   9424     ,                        !- High Speed Evaporative Condenser Air Flow Rate {m3/s}
+   *************   9425     AirCooled,               !- High Speed Evaporative Condenser Pump Rated Power Consumption {W}
+   ** Warning ** Invalid Number in Numeric Field#13 (High Speed Evaporative Condenser Pump Rated Power Consumption), value=AirCooled, in Coil:Cooling:DX:TwoSpeed=2 Spd DX Clg Coil 3
+   ** Severe  ** Out of range value Numeric Field#6 (Low Speed Gross Rated Total Cooling Capacity), value=0.00000, range={>0.0}, in Coil:Cooling:DX:TwoSpeed=2 Spd DX Clg Coil 3
+   ** Severe  ** Out of range value Numeric Field#7 (Low Speed Gross Rated Sensible Heat Ratio), value=0.00000, range={>=0.5 and <=1.0}, in Coil:Cooling:DX:TwoSpeed=2 Spd DX Clg Coil 3
+   ** Severe  ** Out of range value Numeric Field#8 (Low Speed Gross Rated Cooling COP), value=0.00000, range={>0.0}, in Coil:Cooling:DX:TwoSpeed=2 Spd DX Clg Coil 3
+   ** Severe  ** Out of range value Numeric Field#14 (Low Speed Evaporative Condenser Effectiveness), value=-25.00000, range={>=0.0 and <=1.0}, in Coil:Cooling:DX:TwoSpeed=2 Spd DX Clg Coil 3
+   ** Severe  ** Out of range value Numeric Field#15 (Low Speed Evaporative Condenser Air Flow Rate), value=0.00000, range={>0.0}, in Coil:Cooling:DX:TwoSpeed=2 Spd DX Clg Coil 3
+   ** Severe  ** Out of range value Numeric Field#18 (Basin Heater Setpoint Temperature), value=0.00000, range={>=2.0}, in Coil:Cooling:DX:TwoSpeed=2 Spd DX Clg Coil 3
+   ************* IDF Context for following error/warning message:
+   ************* Note -- lines truncated at 300 characters, if necessary...
+   *************   9438 Coil:Cooling:DX:TwoSpeed,
+   ************* Only last 10 lines before error line shown.....
+   *************   9444     Autosize,                !- High Speed Rated Air Flow Rate {m3/s}
+   *************   9445     773.3,                   !- Unit Internal Static Air Pressure {Pa}
+   *************   9446     934.4,                   !- Air Inlet Node Name
+   *************   9447     773.3,                   !- Air Outlet Node Name
+   *************   9448     Node 63,                 !- Total Cooling Capacity Function of Temperature Curve Name
+   *************   9449     Node 64,                 !- Total Cooling Capacity Function of Flow Fraction Curve Name
+   *************   9450     OS:Curve:Biquadratic 25, !- Energy Input Ratio Function of Temperature Curve Name
+   *************   9451     OS:Curve:Quadratic 20,   !- Energy Input Ratio Function of Flow Fraction Curve Name
+   *************   9452     OS:Curve:Biquadratic 22, !- Part Load Fraction Correlation Curve Name
+   *************   9453     OS:Curve:Quadratic 21,   !- Low Speed Gross Rated Total Cooling Capacity {W}
+   ** Warning ** Invalid Number in Numeric Field#6 (Low Speed Gross Rated Total Cooling Capacity), value=OS:Curve:Quadratic 21, in Coil:Cooling:DX:TwoSpeed=2 Spd DX Clg Coil 4
+   ************* IDF Context for following error/warning message:
+   ************* Note -- lines truncated at 300 characters, if necessary...
+   *************   9438 Coil:Cooling:DX:TwoSpeed,
+   ************* Only last 10 lines before error line shown.....
+   *************   9445     773.3,                   !- Unit Internal Static Air Pressure {Pa}
+   *************   9446     934.4,                   !- Air Inlet Node Name
+   *************   9447     773.3,                   !- Air Outlet Node Name
+   *************   9448     Node 63,                 !- Total Cooling Capacity Function of Temperature Curve Name
+   *************   9449     Node 64,                 !- Total Cooling Capacity Function of Flow Fraction Curve Name
+   *************   9450     OS:Curve:Biquadratic 25, !- Energy Input Ratio Function of Temperature Curve Name
+   *************   9451     OS:Curve:Quadratic 20,   !- Energy Input Ratio Function of Flow Fraction Curve Name
+   *************   9452     OS:Curve:Biquadratic 22, !- Part Load Fraction Correlation Curve Name
+   *************   9453     OS:Curve:Quadratic 21,   !- Low Speed Gross Rated Total Cooling Capacity {W}
+   *************   9454     OS:Curve:Quadratic 22,   !- Low Speed Gross Rated Sensible Heat Ratio
+   ** Warning ** Invalid Number in Numeric Field#7 (Low Speed Gross Rated Sensible Heat Ratio), value=OS:Curve:Quadratic 22, in Coil:Cooling:DX:TwoSpeed=2 Spd DX Clg Coil 4
+   ************* IDF Context for following error/warning message:
+   ************* Note -- lines truncated at 300 characters, if necessary...
+   *************   9438 Coil:Cooling:DX:TwoSpeed,
+   ************* Only last 10 lines before error line shown.....
+   *************   9452     OS:Curve:Biquadratic 22, !- Part Load Fraction Correlation Curve Name
+   *************   9453     OS:Curve:Quadratic 21,   !- Low Speed Gross Rated Total Cooling Capacity {W}
+   *************   9454     OS:Curve:Quadratic 22,   !- Low Speed Gross Rated Sensible Heat Ratio
+   *************   9455     Autosize,                !- Low Speed Gross Rated Cooling COP {W/W}
+   *************   9456     0.69,                    !- Low Speed Rated Air Flow Rate {m3/s}
+   *************   9457     3,                       !- Low Speed Total Cooling Capacity Function of Temperature Curve Name
+   *************   9458     Autosize,                !- Low Speed Energy Input Ratio Function of Temperature Curve Name
+   *************   9459     773.3,                   !- Condenser Air Inlet Node Name
+   *************   9460     934.4,                   !- Condenser Type
+   *************   9461     OS:Curve:Biquadratic 23, !- Minimum Outdoor Dry-Bulb Temperature for Compressor Operation {C}
+   ** Warning ** Invalid Number in Numeric Field#10 (Minimum Outdoor Dry-Bulb Temperature for Compressor Operation), value=OS:Curve:Biquadratic 23, in Coil:Cooling:DX:TwoSpeed=2 Spd DX Clg Coil 4
+   ************* IDF Context for following error/warning message:
+   ************* Note -- lines truncated at 300 characters, if necessary...
+   *************   9438 Coil:Cooling:DX:TwoSpeed,
+   ************* Only last 10 lines before error line shown.....
+   *************   9453     OS:Curve:Quadratic 21,   !- Low Speed Gross Rated Total Cooling Capacity {W}
+   *************   9454     OS:Curve:Quadratic 22,   !- Low Speed Gross Rated Sensible Heat Ratio
+   *************   9455     Autosize,                !- Low Speed Gross Rated Cooling COP {W/W}
+   *************   9456     0.69,                    !- Low Speed Rated Air Flow Rate {m3/s}
+   *************   9457     3,                       !- Low Speed Total Cooling Capacity Function of Temperature Curve Name
+   *************   9458     Autosize,                !- Low Speed Energy Input Ratio Function of Temperature Curve Name
+   *************   9459     773.3,                   !- Condenser Air Inlet Node Name
+   *************   9460     934.4,                   !- Condenser Type
+   *************   9461     OS:Curve:Biquadratic 23, !- Minimum Outdoor Dry-Bulb Temperature for Compressor Operation {C}
+   *************   9462     OS:Curve:Biquadratic 24, !- High Speed Evaporative Condenser Effectiveness {dimensionless}
+   ** Warning ** Invalid Number in Numeric Field#11 (High Speed Evaporative Condenser Effectiveness), value=OS:Curve:Biquadratic 24, in Coil:Cooling:DX:TwoSpeed=2 Spd DX Clg Coil 4
+   ************* IDF Context for following error/warning message:
+   ************* Note -- lines truncated at 300 characters, if necessary...
+   *************   9438 Coil:Cooling:DX:TwoSpeed,
+   ************* Only last 10 lines before error line shown.....
+   *************   9455     Autosize,                !- Low Speed Gross Rated Cooling COP {W/W}
+   *************   9456     0.69,                    !- Low Speed Rated Air Flow Rate {m3/s}
+   *************   9457     3,                       !- Low Speed Total Cooling Capacity Function of Temperature Curve Name
+   *************   9458     Autosize,                !- Low Speed Energy Input Ratio Function of Temperature Curve Name
+   *************   9459     773.3,                   !- Condenser Air Inlet Node Name
+   *************   9460     934.4,                   !- Condenser Type
+   *************   9461     OS:Curve:Biquadratic 23, !- Minimum Outdoor Dry-Bulb Temperature for Compressor Operation {C}
+   *************   9462     OS:Curve:Biquadratic 24, !- High Speed Evaporative Condenser Effectiveness {dimensionless}
+   *************   9463     ,                        !- High Speed Evaporative Condenser Air Flow Rate {m3/s}
+   *************   9464     AirCooled,               !- High Speed Evaporative Condenser Pump Rated Power Consumption {W}
+   ** Warning ** Invalid Number in Numeric Field#13 (High Speed Evaporative Condenser Pump Rated Power Consumption), value=AirCooled, in Coil:Cooling:DX:TwoSpeed=2 Spd DX Clg Coil 4
+   ** Severe  ** Out of range value Numeric Field#6 (Low Speed Gross Rated Total Cooling Capacity), value=0.00000, range={>0.0}, in Coil:Cooling:DX:TwoSpeed=2 Spd DX Clg Coil 4
+   ** Severe  ** Out of range value Numeric Field#7 (Low Speed Gross Rated Sensible Heat Ratio), value=0.00000, range={>=0.5 and <=1.0}, in Coil:Cooling:DX:TwoSpeed=2 Spd DX Clg Coil 4
+   ** Severe  ** Out of range value Numeric Field#8 (Low Speed Gross Rated Cooling COP), value=0.00000, range={>0.0}, in Coil:Cooling:DX:TwoSpeed=2 Spd DX Clg Coil 4
+   ** Severe  ** Out of range value Numeric Field#14 (Low Speed Evaporative Condenser Effectiveness), value=-25.00000, range={>=0.0 and <=1.0}, in Coil:Cooling:DX:TwoSpeed=2 Spd DX Clg Coil 4
+   ** Severe  ** Out of range value Numeric Field#15 (Low Speed Evaporative Condenser Air Flow Rate), value=0.00000, range={>0.0}, in Coil:Cooling:DX:TwoSpeed=2 Spd DX Clg Coil 4
+   ** Severe  ** Out of range value Numeric Field#18 (Basin Heater Setpoint Temperature), value=0.00000, range={>=2.0}, in Coil:Cooling:DX:TwoSpeed=2 Spd DX Clg Coil 4
+   ************* IDF Context for following error/warning message:
+   ************* Note -- lines truncated at 300 characters, if necessary...
+   *************   9477 Coil:Cooling:DX:TwoSpeed,
+   ************* Only last 10 lines before error line shown.....
+   *************   9483     Autosize,                !- High Speed Rated Air Flow Rate {m3/s}
+   *************   9484     773.3,                   !- Unit Internal Static Air Pressure {Pa}
+   *************   9485     934.4,                   !- Air Inlet Node Name
+   *************   9486     773.3,                   !- Air Outlet Node Name
+   *************   9487     Node 79,                 !- Total Cooling Capacity Function of Temperature Curve Name
+   *************   9488     Node 80,                 !- Total Cooling Capacity Function of Flow Fraction Curve Name
+   *************   9489     OS:Curve:Biquadratic 25, !- Energy Input Ratio Function of Temperature Curve Name
+   *************   9490     OS:Curve:Quadratic 20,   !- Energy Input Ratio Function of Flow Fraction Curve Name
+   *************   9491     OS:Curve:Biquadratic 22, !- Part Load Fraction Correlation Curve Name
+   *************   9492     OS:Curve:Quadratic 21,   !- Low Speed Gross Rated Total Cooling Capacity {W}
+   ** Warning ** Invalid Number in Numeric Field#6 (Low Speed Gross Rated Total Cooling Capacity), value=OS:Curve:Quadratic 21, in Coil:Cooling:DX:TwoSpeed=2 Spd DX Clg Coil 5
+   ************* IDF Context for following error/warning message:
+   ************* Note -- lines truncated at 300 characters, if necessary...
+   *************   9477 Coil:Cooling:DX:TwoSpeed,
+   ************* Only last 10 lines before error line shown.....
+   *************   9484     773.3,                   !- Unit Internal Static Air Pressure {Pa}
+   *************   9485     934.4,                   !- Air Inlet Node Name
+   *************   9486     773.3,                   !- Air Outlet Node Name
+   *************   9487     Node 79,                 !- Total Cooling Capacity Function of Temperature Curve Name
+   *************   9488     Node 80,                 !- Total Cooling Capacity Function of Flow Fraction Curve Name
+   *************   9489     OS:Curve:Biquadratic 25, !- Energy Input Ratio Function of Temperature Curve Name
+   *************   9490     OS:Curve:Quadratic 20,   !- Energy Input Ratio Function of Flow Fraction Curve Name
+   *************   9491     OS:Curve:Biquadratic 22, !- Part Load Fraction Correlation Curve Name
+   *************   9492     OS:Curve:Quadratic 21,   !- Low Speed Gross Rated Total Cooling Capacity {W}
+   *************   9493     OS:Curve:Quadratic 22,   !- Low Speed Gross Rated Sensible Heat Ratio
+   ** Warning ** Invalid Number in Numeric Field#7 (Low Speed Gross Rated Sensible Heat Ratio), value=OS:Curve:Quadratic 22, in Coil:Cooling:DX:TwoSpeed=2 Spd DX Clg Coil 5
+   ************* IDF Context for following error/warning message:
+   ************* Note -- lines truncated at 300 characters, if necessary...
+   *************   9477 Coil:Cooling:DX:TwoSpeed,
+   ************* Only last 10 lines before error line shown.....
+   *************   9491     OS:Curve:Biquadratic 22, !- Part Load Fraction Correlation Curve Name
+   *************   9492     OS:Curve:Quadratic 21,   !- Low Speed Gross Rated Total Cooling Capacity {W}
+   *************   9493     OS:Curve:Quadratic 22,   !- Low Speed Gross Rated Sensible Heat Ratio
+   *************   9494     Autosize,                !- Low Speed Gross Rated Cooling COP {W/W}
+   *************   9495     0.69,                    !- Low Speed Rated Air Flow Rate {m3/s}
+   *************   9496     3,                       !- Low Speed Total Cooling Capacity Function of Temperature Curve Name
+   *************   9497     Autosize,                !- Low Speed Energy Input Ratio Function of Temperature Curve Name
+   *************   9498     773.3,                   !- Condenser Air Inlet Node Name
+   *************   9499     934.4,                   !- Condenser Type
+   *************   9500     OS:Curve:Biquadratic 23, !- Minimum Outdoor Dry-Bulb Temperature for Compressor Operation {C}
+   ** Warning ** Invalid Number in Numeric Field#10 (Minimum Outdoor Dry-Bulb Temperature for Compressor Operation), value=OS:Curve:Biquadratic 23, in Coil:Cooling:DX:TwoSpeed=2 Spd DX Clg Coil 5
+   ************* IDF Context for following error/warning message:
+   ************* Note -- lines truncated at 300 characters, if necessary...
+   *************   9477 Coil:Cooling:DX:TwoSpeed,
+   ************* Only last 10 lines before error line shown.....
+   *************   9492     OS:Curve:Quadratic 21,   !- Low Speed Gross Rated Total Cooling Capacity {W}
+   *************   9493     OS:Curve:Quadratic 22,   !- Low Speed Gross Rated Sensible Heat Ratio
+   *************   9494     Autosize,                !- Low Speed Gross Rated Cooling COP {W/W}
+   *************   9495     0.69,                    !- Low Speed Rated Air Flow Rate {m3/s}
+   *************   9496     3,                       !- Low Speed Total Cooling Capacity Function of Temperature Curve Name
+   *************   9497     Autosize,                !- Low Speed Energy Input Ratio Function of Temperature Curve Name
+   *************   9498     773.3,                   !- Condenser Air Inlet Node Name
+   *************   9499     934.4,                   !- Condenser Type
+   *************   9500     OS:Curve:Biquadratic 23, !- Minimum Outdoor Dry-Bulb Temperature for Compressor Operation {C}
+   *************   9501     OS:Curve:Biquadratic 24, !- High Speed Evaporative Condenser Effectiveness {dimensionless}
+   ** Warning ** Invalid Number in Numeric Field#11 (High Speed Evaporative Condenser Effectiveness), value=OS:Curve:Biquadratic 24, in Coil:Cooling:DX:TwoSpeed=2 Spd DX Clg Coil 5
+   ************* IDF Context for following error/warning message:
+   ************* Note -- lines truncated at 300 characters, if necessary...
+   *************   9477 Coil:Cooling:DX:TwoSpeed,
+   ************* Only last 10 lines before error line shown.....
+   *************   9494     Autosize,                !- Low Speed Gross Rated Cooling COP {W/W}
+   *************   9495     0.69,                    !- Low Speed Rated Air Flow Rate {m3/s}
+   *************   9496     3,                       !- Low Speed Total Cooling Capacity Function of Temperature Curve Name
+   *************   9497     Autosize,                !- Low Speed Energy Input Ratio Function of Temperature Curve Name
+   *************   9498     773.3,                   !- Condenser Air Inlet Node Name
+   *************   9499     934.4,                   !- Condenser Type
+   *************   9500     OS:Curve:Biquadratic 23, !- Minimum Outdoor Dry-Bulb Temperature for Compressor Operation {C}
+   *************   9501     OS:Curve:Biquadratic 24, !- High Speed Evaporative Condenser Effectiveness {dimensionless}
+   *************   9502     ,                        !- High Speed Evaporative Condenser Air Flow Rate {m3/s}
+   *************   9503     AirCooled,               !- High Speed Evaporative Condenser Pump Rated Power Consumption {W}
+   ** Warning ** Invalid Number in Numeric Field#13 (High Speed Evaporative Condenser Pump Rated Power Consumption), value=AirCooled, in Coil:Cooling:DX:TwoSpeed=2 Spd DX Clg Coil 5
+   ** Severe  ** Out of range value Numeric Field#6 (Low Speed Gross Rated Total Cooling Capacity), value=0.00000, range={>0.0}, in Coil:Cooling:DX:TwoSpeed=2 Spd DX Clg Coil 5
+   ** Severe  ** Out of range value Numeric Field#7 (Low Speed Gross Rated Sensible Heat Ratio), value=0.00000, range={>=0.5 and <=1.0}, in Coil:Cooling:DX:TwoSpeed=2 Spd DX Clg Coil 5
+   ** Severe  ** Out of range value Numeric Field#8 (Low Speed Gross Rated Cooling COP), value=0.00000, range={>0.0}, in Coil:Cooling:DX:TwoSpeed=2 Spd DX Clg Coil 5
+   ** Severe  ** Out of range value Numeric Field#14 (Low Speed Evaporative Condenser Effectiveness), value=-25.00000, range={>=0.0 and <=1.0}, in Coil:Cooling:DX:TwoSpeed=2 Spd DX Clg Coil 5
+   ** Severe  ** Out of range value Numeric Field#15 (Low Speed Evaporative Condenser Air Flow Rate), value=0.00000, range={>0.0}, in Coil:Cooling:DX:TwoSpeed=2 Spd DX Clg Coil 5
+   ** Severe  ** Out of range value Numeric Field#18 (Basin Heater Setpoint Temperature), value=0.00000, range={>=2.0}, in Coil:Cooling:DX:TwoSpeed=2 Spd DX Clg Coil 5
+   ** Severe  ** Possible incorrect IDD File
+   **   ~~~   ** Possible Invalid Numerics or other problems
+   ** Severe  ** Out of "range" values found in input
+   ** Severe  ** Other miscellaneous errors found in input
+   ** Severe  ** Out of "range" values and/or blank required fields found in input
+   ** Warning ** File is already at latest version.  No new diff file made.
+   ************* Conversion Completed Successfully-- 31 Warning; 42 Severe Errors

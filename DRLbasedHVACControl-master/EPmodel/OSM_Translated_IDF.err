@@ -1,0 +1,50 @@
+Program Version,EnergyPlus, Version 23.1.0-87ed9199d4, YMD=2024.09.18 16:57,
+   ** Severe  ** Line: 9302 Index: 12 - Field cannot be Autosize or Autocalculate
+   ** Severe  ** Line: 9312 Index: 12 - Field cannot be Autosize or Autocalculate
+   ** Severe  ** Line: 9341 Index: 12 - Field cannot be Autosize or Autocalculate
+   ** Severe  ** Line: 9351 Index: 12 - Field cannot be Autosize or Autocalculate
+   ** Severe  ** Line: 9380 Index: 12 - Field cannot be Autosize or Autocalculate
+   ** Severe  ** Line: 9390 Index: 12 - Field cannot be Autosize or Autocalculate
+   ** Severe  ** Line: 9419 Index: 12 - Field cannot be Autosize or Autocalculate
+   ** Severe  ** Line: 9429 Index: 12 - Field cannot be Autosize or Autocalculate
+   ** Severe  ** Line: 9458 Index: 12 - Field cannot be Autosize or Autocalculate
+   ** Severe  ** Line: 9468 Index: 12 - Field cannot be Autosize or Autocalculate
+   ** Severe  ** Line: 9497 Index: 12 - Field cannot be Autosize or Autocalculate
+   ** Severe  ** Line: 9507 Index: 12 - Field cannot be Autosize or Autocalculate
+   ** Severe  ** <root>[Coil:Cooling:DX:TwoSpeed][2 Spd DX Clg Coil][basin_heater_capacity] - Value type "string" for input "Autosize" not permitted by 'type' constraint.
+   ** Severe  ** <root>[Coil:Cooling:DX:TwoSpeed][2 Spd DX Clg Coil][basin_heater_setpoint_temperature] - Value type "string" for input "Autosize" not permitted by 'type' constraint.
+   ** Severe  ** <root>[Coil:Cooling:DX:TwoSpeed][2 Spd DX Clg Coil][condenser_type] - "934.4" - Failed to match against any enum values.
+   ** Severe  ** <root>[Coil:Cooling:DX:TwoSpeed][2 Spd DX Clg Coil][high_speed_evaporative_condenser_effectiveness] - Value type "string" for input "OS:Curve:Biquadratic 24" not permitted by 'type' constraint.
+   ** Severe  ** <root>[Coil:Cooling:DX:TwoSpeed][2 Spd DX Clg Coil][high_speed_evaporative_condenser_pump_rated_power_consumption] - Value type "string" for input "AirCooled" not permitted by 'type' constraint.
+   ** Severe  ** <root>[Coil:Cooling:DX:TwoSpeed][2 Spd DX Clg Coil][high_speed_evaporative_condenser_pump_rated_power_consumption] - Failed to validate against child schema #0.
+   ** Severe  ** <root>[Coil:Cooling:DX:TwoSpeed][2 Spd DX Clg Coil][high_speed_evaporative_condenser_pump_rated_power_consumption] - "AirCooled" - Failed to match against any enum values.
+   ** Severe  ** <root>[Coil:Cooling:DX:TwoSpeed][2 Spd DX Clg Coil][high_speed_evaporative_condenser_pump_rated_power_consumption] - Failed to validate against child schema #1.
+   ** Severe  ** <root>[Coil:Cooling:DX:TwoSpeed][2 Spd DX Clg Coil][high_speed_evaporative_condenser_pump_rated_power_consumption] - Failed to validate against any schemas allowed by anyOf constraint.
+   ** Severe  ** <root>[Coil:Cooling:DX:TwoSpeed][2 Spd DX Clg Coil][low_speed_evaporative_condenser_air_flow_rate] - "0" - Expected number greater than 0.000000
+   ** Severe  ** <root>[Coil:Cooling:DX:TwoSpeed][2 Spd DX Clg Coil][low_speed_evaporative_condenser_air_flow_rate] - Failed to validate against child schema #0.
+   ** Severe  ** <root>[Coil:Cooling:DX:TwoSpeed][2 Spd DX Clg Coil][low_speed_evaporative_condenser_air_flow_rate] - "0" - Failed to match against any enum values.
+   ** Severe  ** <root>[Coil:Cooling:DX:TwoSpeed][2 Spd DX Clg Coil][low_speed_evaporative_condenser_air_flow_rate] - Failed to validate against child schema #1.
+   ** Severe  ** <root>[Coil:Cooling:DX:TwoSpeed][2 Spd DX Clg Coil][low_speed_evaporative_condenser_air_flow_rate] - Failed to validate against any schemas allowed by anyOf constraint.
+   ** Severe  ** <root>[Coil:Cooling:DX:TwoSpeed][2 Spd DX Clg Coil][low_speed_evaporative_condenser_effectiveness] - "-25" - Expected number greater than or equal to 0.000000
+   ** Severe  ** <root>[Coil:Cooling:DX:TwoSpeed][2 Spd DX Clg Coil][low_speed_gross_rated_cooling_cop] - Value type "string" for input "Autosize" not permitted by 'type' constraint.
+   ** Severe  ** <root>[Coil:Cooling:DX:TwoSpeed][2 Spd DX Clg Coil][low_speed_gross_rated_sensible_heat_ratio] - Value type "string" for input "OS:Curve:Quadratic 22" not permitted by 'type' constraint.
+   ** Severe  ** <root>[Coil:Cooling:DX:TwoSpeed][2 Spd DX Clg Coil][low_speed_gross_rated_sensible_heat_ratio] - Failed to validate against child schema #0.
+   ** Severe  ** <root>[Coil:Cooling:DX:TwoSpeed][2 Spd DX Clg Coil][low_speed_gross_rated_sensible_heat_ratio] - "OS:Curve:Quadratic 22" - Failed to match against any enum values.
+   ** Severe  ** <root>[Coil:Cooling:DX:TwoSpeed][2 Spd DX Clg Coil][low_speed_gross_rated_sensible_heat_ratio] - Failed to validate against child schema #1.
+   ** Severe  ** <root>[Coil:Cooling:DX:TwoSpeed][2 Spd DX Clg Coil][low_speed_gross_rated_sensible_heat_ratio] - Failed to validate against any schemas allowed by anyOf constraint.
+   ** Severe  ** <root>[Coil:Cooling:DX:TwoSpeed][2 Spd DX Clg Coil][low_speed_gross_rated_total_cooling_capacity] - Value type "string" for input "OS:Curve:Quadratic 21" not permitted by 'type' constraint.
+   ** Severe  ** <root>[Coil:Cooling:DX:TwoSpeed][2 Spd DX Clg Coil][low_speed_gross_rated_total_cooling_capacity] - Failed to validate against child schema #0.
+   ** Severe  ** <root>[Coil:Cooling:DX:TwoSpeed][2 Spd DX Clg Coil][low_speed_gross_rated_total_cooling_capacity] - "OS:Curve:Quadratic 21" - Failed to match against any enum values.
+   ** Severe  ** <root>[Coil:Cooling:DX:TwoSpeed][2 Spd DX Clg Coil][low_speed_gross_rated_total_cooling_capacity] - Failed to validate against child schema #1.
+   ** Severe  ** <root>[Coil:Cooling:DX:TwoSpeed][2 Spd DX Clg Coil][low_speed_gross_rated_total_cooling_capacity] - Failed to validate against any schemas allowed by anyOf constraint.
+   ** Severe  ** <root>[Coil:Cooling:DX:TwoSpeed][2 Spd DX Clg Coil][minimum_outdoor_dry_bulb_temperature_for_compressor_operation] - Value type "string" for input "OS:Curve:Biquadratic 23" not permitted by 'type' constraint.
+   ** Warning ** Version: in IDF="24.1" not the same as expected="23.1"
+   **  Fatal  ** Errors occurred on processing input file. Preceding condition(s) cause termination.
+   ...Summary of Errors that led to program termination:
+   ..... Reference severe error count=39
+   ..... Last severe error=<root>[Coil:Cooling:DX:TwoSpeed][2 Spd DX Clg Coil][minimum_outdoor_dry_bulb_temperature_for_compressor_operation] - Value type "string" for input "OS:Curve:Biquadratic 23" not permitted by 'type' constraint.
+   ************* Warning:  Node connection errors not checked - most system input has not been read (see previous warning).
+   ************* Fatal error -- final processing.  Program exited before simulations began.  See previous error messages.
+   ************* EnergyPlus Warmup Error Summary. During Warmup: 0 Warning; 0 Severe Errors.
+   ************* EnergyPlus Sizing Error Summary. During Sizing: 0 Warning; 0 Severe Errors.
+   ************* EnergyPlus Terminated--Fatal Error Detected. 1 Warning; 39 Severe Errors; Elapsed Time=00hr 00min  0.10sec
