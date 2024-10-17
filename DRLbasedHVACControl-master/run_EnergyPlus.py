@@ -19,7 +19,7 @@ from osm2idf import osm2idf
 # from callback_function import callback_function
 from data_center import Data_Center
 from plot import Drawing
-from agent import DQN
+from agent import DDPG
 from tools import HVAC_setting_value, ReplayBuffer, save_to_csv
 
 # Eplus_Dir = "C:\Users\12254\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\EnergyPlusV23-1-0"
@@ -97,6 +97,7 @@ def update_plot(draw):
 
 
 def callback_function(EPstate):
+    global Temp_mean, reward_T, s7
     api = EnergyPlusAPI()
     if not DATA.is_handle:
         if not api.exchange.api_data_fully_ready(EPstate):
@@ -730,18 +731,20 @@ if __name__ == '__main__':
         # save_to_csv(DATA)
 
     else:
-        '''DQN training'''
+        '''DDPG training'''
         # draw = Drawing(DATA, is_ion=False, is_zoom=False)
         ReplayBuffer = ReplayBuffer(max_length=4680)
         device = 'cuda' if torch.cuda.is_available() else 'cpu'
-        EPagent = DQN(
-            state_dim=8,
-            action_dim=729,
-            lr=0.01,
-            gamma=0.9,
-            epsilon=0.01,
-            device=device,
-            update_interval=144
+        EPagent = DDPG(
+            state_dim=8,          #状态数
+            action_dim=729,       #动作数
+            hidden_dim=64,        #隐藏层神经元数
+            actor_lr=0.0001,      # actor学习率
+            critic_lr=0.001,      # critic学习率
+            sigma=0.05,           # actor噪声
+            tau=0.001,            #软更新参数
+            gamma=0.99,           #折扣因子
+            device=device,        #设备
         )
         Epoch = 1
         run_instance = Run_EPlus(weather_Dir, out_Dir, IDF_Dir, weights_Dir)
